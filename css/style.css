@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+
+@font-face {
+	font-family: "Open Sans Condensed";
+	src: url(../fonts/OpenSansCondensed-Light.woff2) format("woff2");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Open Sans Condensed";
+	src: url(../fonts/OpenSansCondensed-Bold.woff2) format("woff2");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+body {
+	line-height: 1;
+}
+/* ------------------ */
+
+body {
+	font-family: "Amatic SC", cursive;
+	font-size: 22px;
+	font-weight: 700;
+	background: url(../img/bg.jpg) 0 0/40% repeat;
+}
+
+.container {
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 0 10px;
+	background-color: #fff;
+}
+
+/* HEADER */
+
+.header {
+	margin-top: 60px;
+}
+
+.header .container {
+	padding: 10px 10px 0 10px;
+}
+
+.header__inner {
+	padding: 60px 20px 60px 20px;
+	height: 100px;
+	background: url(../img/header01.webp) 1030px 60px / 5% no-repeat,
+		url(../img/header02.webp) 180px -100px / 20% no-repeat, #ffc5c7;
+	border-radius: 5px 5px 0 0;
+}
+
+.logo {
+}
+
+.logo img {
+	width: 30%;
+}
+
+.logo__link {
+}
+
+.menu {
+	text-align: center;
+}
+
+.menu li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.menu__list {
+}
+
+.menu__btn {
+	max-width: 300px;
+	display: block;
+	color: #fff;
+	padding: 10px 20px;
+	background: url(../img/icon_btn.png) 20px center no-repeat, #292961;
+	border-radius: 5px;
+}
+
+.menu__btn:hover {
+	background-color: #4daed5;
+}
+
+.menu__btn span {
+	padding: 0 0 0 40px;
+	display: inline-block;
+}
+
+/* MAIN */
+
+.intro {
+}
+
+.intro .intro__text {
+	padding: 20px;
+	background-color: #ffc3c6;
+}
+
+.title {
+	padding: 10px;
+	text-align: center;
+	background-color: #323376;
+	border-radius: 5px;
+	color: #fff;
+	opacity: 0.75;
+}
+
+.off-road .title {
+	background-color: #12a5d8;
+}
+
+.other .title {
+	background-color: #fff;
+	color: #000;
+}
+
+.subtitle {
+	margin: 0 0 20px 0;
+	text-align: center;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.off-road,
+.sport,
+.asphalt,
+.other {
+	padding: 20px;
+	margin: 0 0 20px 0;
+}
+
+.sport,
+.asphalt {
+	padding-bottom: 0;
+}
+
+.off-road {
+	background: #fff url(../img/off-road_bg.webp) center/cover no-repeat;
+	padding: 20px;
+	border-radius: 0 0 5px 5px;
+}
+
+.sport {
+	background: #fff url(../img/sport_bg.jpg) center/cover no-repeat;
+	border-radius: 5px;
+}
+
+.asphalt {
+	background: #fff url(../img/asphalt_bg.jpg) center/cover no-repeat;
+	border-radius: 5px;
+}
+
+.other {
+	background: #fff url(../img/other_bg.jpg) center/cover no-repeat;
+	border-radius: 5px;
+}
+
+.other .other__text {
+	margin: 0 0 20px 0;
+	color: #fff;
+}
+
+.other__list li {
+	color: #fff;
+}
+
+.montain,
+.double,
+.highway,
+.cyclocross,
+.track,
+.chopping,
+.city,
+.hybrid,
+.touring,
+.folding,
+.kids,
+.female,
+.cargo,
+.electric,
+.tandem,
+.ligerad,
+.unicycle,
+.chopper {
+	background-color: #fff;
+	opacity: 0.75;
+	border-radius: 5px;
+	padding: 10px;
+	max-width: 49%;
+	min-height: 500px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 0 25px 0;
+}
+
+.montain,
+.double {
+	min-height: 420px;
+}
+
+.highway,
+.cyclocross {
+	min-height: 380px;
+}
+
+.cargo,
+.electric,
+.tandem,
+.ligerad {
+	min-height: 350px;
+}
+
+.track,
+.chopping {
+	min-height: 260px;
+}
+
+.kids,
+.female,
+.unicycle,
+.chopper {
+	min-height: 300px;
+}
+
+.city,
+.hybrid,
+.touring,
+.folding {
+	min-height: 480px;
+}
+
+.montain,
+.highway,
+.track,
+.city,
+.touring,
+.kids,
+.cargo,
+.tandem,
+.unicycle {
+	margin: 0 22px 0 0;
+}
+
+.fatbike,
+.trial {
+	background-color: #fff;
+	opacity: 0.85;
+	border-radius: 5px;
+	padding: 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.trial {
+	margin: 0 0 25px 0;
+}
+
+.off-road .mountain-img,
+.off-road .fatbike-img,
+.sport .highway-img,
+.sport .track-img,
+.asphalt .city-img,
+.asphalt .touring-img,
+.other .kids-img,
+.other .cargo-img,
+.other .tandem-img,
+.other .unicycle-img {
+	height: 200px;
+	padding: 20px;
+	float: left;
+}
+
+.off-road .double-img,
+.sport .trial-img,
+.sport .chopping-img,
+.sport .cyclocross-img,
+.asphalt .hybrid-img,
+.asphalt .folding-img,
+.other .female-img,
+.other .electric-img,
+.other .ligerad-img,
+.other .chopper-img {
+	width: 250px;
+	padding: 20px;
+	float: right;
+}
+
+.off-road__list,
+.sport__list,
+.highway__list,
+.asphalt__list,
+.other__list {
+	padding: 20px;
+}
+
+.off-road__list li,
+.sport__list li,
+.asphalt__list li {
+	background: url(../img/list01.svg) 0 center/20px no-repeat;
+	padding: 0 0 0 30px;
+}
+
+.other__list li {
+	background: url(../img/list02.png) 0 center/20px no-repeat;
+	padding: 0 0 0 30px;
+}
+
+.footer {
+	margin-bottom: 60px;
+}
+.footer .container {
+	padding: 0 10px 10px 10px;
+}
+
+.footer__inner {
+	padding: 40px 20px 20px 20px;
+	min-height: 100px;
+	margin-top: -60px;
+	background: linear-gradient(180deg, rgba(50, 51, 118, 1) 0%, rgba(0, 0, 0, 1) 65%), rgb(50, 51, 118);
+	border-radius: 0 0 5px 5px;
+	text-align: center;
+	color: #fff;
+}
