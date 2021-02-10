@@ -62,7 +62,7 @@ body {
 	font-family: "Amatic SC", cursive;
 	font-size: 22px;
 	font-weight: 700;
-	background: url(../img/bg.jpg) 0 0/40% repeat;
+	background: url(../img/bg.jpg) 0 0/40% repeat fixed;
 }
 
 .container {
